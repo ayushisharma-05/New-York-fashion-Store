@@ -1,0 +1,916 @@
+*{
+    margin: 0px;
+    font-family: candara;
+}
+#container{
+height: auto;
+width: 95%;
+margin: auto;
+background-color:  rgb(254, 243, 230);
+}
+#header{
+height: 80px;
+margin: auto;
+background-color:  rgb(254, 243, 230);
+box-sizing: border-box;
+padding: 3px;
+}
+#logo{
+height: 70px;
+margin-left: 10px;
+float: left;
+}
+#heading{
+float: left;
+font-size: 35px;
+margin-left: 20px;
+margin-top: 20px;
+font-family: candara;
+font-weight: 600;
+}
+#nav{
+top:0;
+position: sticky;
+height: 50px;
+margin: auto;
+background-color: rgb(192,215,221);
+box-sizing: border-box;
+padding: .5px;
+}
+#nav ul{
+padding-top:10px ;
+list-style: none;
+}
+#nav ul li :hover{
+    color: rgb(228, 170, 103);
+}
+#nav ul li{
+display: inline;
+font-size: 22px;
+margin-left:70px;
+font-weight: 550;
+color:rgb(49, 49, 49);
+}
+#nav ul li a{
+    color: #042588;
+text-decoration: none;
+}
+#nav ul li ul{
+display: none;
+}
+#nav ul li:hover ul{
+display: block;
+position: absolute;
+width: 170px;
+margin-left: 450px;
+border-radius: 0px 0px 10px 10px;
+background-color: rgb(192,215,221);
+}
+#nav ul li ul li{
+margin-left: 20px;
+line-height: 40px;
+}
+#banner{
+height: 460px;
+}
+
+#content{
+padding: 50px;
+background-color: rgb(254, 243, 230);
+}
+#content p{
+font-size: 20px;
+font-weight: 500;
+}
+#Box{
+background-color:  rgb(254, 243, 230);
+height: 400px;
+}
+#Box button:hover{
+    color:  rgb(228, 170, 103);
+}
+#imagebox{
+height: 390px;
+width: 250px;
+float: left;
+box-sizing: border-box;
+margin-left: 40px;
+background-color: rgb(192,215,221);
+border-radius:10px ;
+}
+#imagebox p{
+padding: 7px;
+align-items: center;
+text-align: left;
+font-size:15px;
+color: rgb(45, 45, 45);
+}
+#imagebox span{
+padding: 7px;
+align-items: center;
+text-align: center;
+font-size:19px;
+font-weight: 600;
+color: rgb(0, 0, 0);
+}
+#imagebox button{
+text-align: center;
+font-size:15px;
+font-weight: 500;
+background-color: rgb(32, 32, 32);
+color: white;
+height: 40px;
+width: 250px;
+margin-top: 35px;
+border-radius: 5px;
+}
+#newsletter{
+height: 200px;
+margin-top: 25px;
+border-radius: 5px;
+background-color: rgb(37, 37, 37);
+}
+#newsletter h1{
+text-align: center;
+color:rgb(255, 255, 255);
+}
+#newsletter input[type='email']{
+height: 50px;
+width: 300px;
+margin-top: 50px;
+margin-left: 350px;
+border-radius: 5px;
+outline: 0px;
+font-size: 18px;
+text-align: center;
+border-style: none;
+background-color: rgb(255, 255, 255);
+float: left;
+
+}
+#newsletter input[type='button']{
+margin-top: 50px;
+margin-left: 20px;
+border-radius: 5px;
+height: 50px;
+width: 200px;
+outline: 0px;
+font-size: 18px;
+color: white;
+font-weight: 600;
+background-color:rgb(228, 170, 103);
+border-style: none;
+float: left;
+}
+#aboutus{
+background-color:  rgb(254, 243, 230);
+height: 430px;
+}
+#aboutusimg{
+height: 300px;
+width: 450px;
+margin: 50px;
+background-color: blanchedalmond;
+float: left;
+}
+
+#aboutuscontent{
+height: 350px;
+width: 550px;
+margin-top: 30px;
+float: left;
+}
+#aboutuscontent p{
+font-size: 17px;
+}
+#aboutuscontent h1{
+color: rgb(228, 170, 103);
+}
+#galleryspace{
+    background-color:  rgb(254, 243, 230);
+    height: 50px;
+}
+
+#contact{
+    color: #16348C;
+    height: 550px;
+    background-color:  rgb(254, 243, 230);
+}
+#Contactbox1,#Contactbox2,#Contactbox3{
+    height: 400px;
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgb(192,215,221);
+    float: left;
+    box-shadow: 2px 2px 5px 2px rgb(52, 52, 67);
+}
+#Contactbox1 span pre  {
+    color: #763a21;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+}
+#Contactbox1 ul li,#Contactbox2 ul li{
+    list-style: none;
+    line-height: 2.5;
+}
+#Contactbox1 ul li a{ 
+    margin-top: 50px;
+    text-decoration: none;
+    color: #201b67;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+#Contactbox1 ul li a:hover{ 
+    color:  rgb(228, 170, 103);
+    font-size: 20px;
+}
+
+#Contactbox1 ul li a{
+    font-size: 19px;
+}
+#Contactbox1 span {
+    font-size: 22px;
+    text-align: center;
+}
+#Contactbox2 span pre  {
+    color:#763a21;
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 5px;
+    text-align: center;
+}
+#Contactbox2 ul li{ 
+    margin-top: 3px;
+    text-decoration: none;
+    color: #201b67;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#Contactbox2 p{ 
+    
+    color: #201b67;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -20px;
+}
+#Contactbox3 h1 {
+    margin-top: 22px;
+    color: #763a21;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+}
+#Contactbox3 p {
+    
+    color: #201b67;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+#Contactbox4{
+    height: 400px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgb(192,215,221);
+    float: left;
+    box-shadow: 2px 2px 5px 2px rgb(52, 52, 67);
+}
+#Contactbox4 iframe{
+    height: 400px;
+    width: 300px;
+   
+}
+
+#collection{
+    height: 1500px;
+    background-color:  rgb(254, 243, 230);
+}
+#collection h1{
+    color: #16348C;
+    text-align: center;
+    font-weight:700 ;
+}
+#collection h1:hover{
+    color:  rgb(228, 170, 103);
+}
+#collectionimg1{
+    height: 380px;
+    width: 260px;
+    margin-top: 60px;
+    margin-left: 100px;
+    float: left;
+    background-color: black;
+    box-shadow: 2px 2px 4px 5px rgb(70, 70, 70);
+}
+#collectionimg1 p{
+    margin-top: 10px;
+    color: rgb(187, 226, 236);
+    font-weight: 600;
+}
+#collectionimg1 p:hover {
+    color:  rgb(228, 170, 103);
+}
+
+#footer {
+    background-color:  rgb(254, 243, 230);
+    height: 30px;
+    width: 1000px;
+    color:darkslategrey;
+}
+
+#account{
+    height: 450px;
+    width: 410px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(192,215,221);
+}
+#on{
+    height: 60px;
+    width: 205px;
+    float: left;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-color: black;
+    background-color: black;
+}
+#off{
+    height: 60px;
+    width: 205px;
+    float: left;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    background-color:  rgb(235, 191, 141);
+    border-color: rgb(235, 191, 141);
+}
+#formbox1,#formbox2,#formbox3,#formbox4{
+    height: 38px;
+    width: 300px;
+    margin: 5px;
+    margin-top: 23px;
+    margin-left: 40px;
+    outline: 0px;
+    font-size: 16px;
+    text-align: center;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-color: black;
+}
+#account input[type='submit'],#account input[type='reset']{
+    height: 40px;
+    width: 180px;
+    float: left;
+    color: white;
+    margin-top: 30px;
+    margin-left: 18px;
+    font-size: 22px;
+    font-weight: 600;
+    border-color: black;
+    background-color: black;
+}
+#account center a{
+    margin-top: 10px;
+    color: darkslategray;
+    font-size: 16px;
+}
+#rememberme{
+    height: 10px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+#products{
+    height: 4600px;
+    width: 95%;
+    margin-left: 32px;
+    float: left;
+    background-color:  rgb(254, 243, 230);
+}
+#Product1{
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+    height:370px;
+    background-color: black;
+    width:260px;
+    margin-left: 24px;
+    box-shadow: 2px 2px 4px 5px rgb(70, 70, 70);
+}
+#Product1  center{
+    color: white;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    border-color: black;
+    
+}
+#items{
+    margin-top: 50px;
+}
+#items h1{
+    color:  rgb(228, 170, 103);
+}
+#sectionofperfumes{
+    height: 400px;
+    margin-top: 20px;
+    float: left;
+    margin: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#allperfumes {
+    float: left;
+    margin: 42px;
+    height: 310px;
+    background-color: rgb(25, 88, 104);
+    box-shadow: 2px 2px 4px 2px rgb(120, 118, 118);
+    font-size: 18px;
+}
+#sectionofperfumes2{
+    height: 400px;
+    float: left;
+    margin: 10px;
+    background-color:  rgb(254, 243, 230);
+}
+#allperfumes2{
+    float: left;
+    margin: 42px;
+    height: 310px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 2px 2px 4px 2px rgb(120, 118, 118);
+    font-size: 18px;
+}
+
+@media screen and (max-width :400px) {
+    #container{
+        height: auto;
+        width: 95%;
+        margin: auto;
+        background-color:  rgb(254, 243, 230);
+        }
+        #header{
+        height: 80px;
+        margin: auto;
+        background-color:  rgb(254, 243, 230);
+        box-sizing: border-box;
+        padding: 3px;
+        }
+        #logo{
+        height: 70px;
+        margin-left: 10px;
+        float: left;
+        }
+        #heading{
+        float: left;
+        font-size: 23px;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-family: candara;
+        font-weight: 600;
+        }
+        #nav{
+        top:0;
+        height: 140px;
+        margin: auto;
+        box-sizing: border-box;
+        background-color: rgb(192,215,221);
+
+        padding: .5px;
+        }
+        #nav ul{
+        padding-top:10px ;
+        list-style: none;
+        }
+        #nav ul li :hover{
+            color: rgb(228, 170, 103);
+        }
+        #nav ul li{
+        display: inline;
+        font-size: 22px;
+        margin-left:70px;
+        font-weight: 550;
+        color:rgb(49, 49, 49);
+        }
+        #nav ul li a{
+            color: #042588;
+        text-decoration: none;
+        }
+        #nav ul li ul{
+        display: none;
+        }
+        #nav ul li:hover ul{
+        display: block;
+        position: absolute;
+        width: 170px;
+        margin-left: 450px;
+        border-radius: 0px 0px 10px 10px;
+        background-color: rgb(192,215,221);
+        }
+        #nav ul li ul li{
+        margin-left: 20px;
+        line-height: 40px;
+        }
+        #banner{
+        height: 320px;
+        }
+        #bann{
+            height: 300px;
+            width: 100%;
+        }
+        #content{
+        padding: 50px;
+        background-color: rgb(254, 243, 230);
+        }
+        #content p{
+        font-size: 17px;
+        font-weight: 500;
+        }
+        #Box{
+        background-color:  rgb(254, 243, 230);
+        height: 1650px;
+        }
+        #Box button:hover{
+            color:  rgb(228, 170, 103);
+        }
+        #imagebox{
+        height: 390px;
+        width: 250px;
+        float: left;
+        box-sizing: border-box;
+        margin: 10px;
+        margin-left: 60px;
+        background-color: rgb(192,215,221);
+        border-radius:10px ;
+        }
+        #imagebox p{
+        padding: 7px;
+        align-items: center;
+        text-align: left;
+        font-size:15px;
+        color: rgb(45, 45, 45);
+        }
+        #imagebox span{
+        padding: 7px;
+        align-items: center;
+        text-align: center;
+        font-size:19px;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        }
+        #imagebox button{
+        text-align: center;
+        font-size:15px;
+        font-weight: 500;
+        background-color: rgb(32, 32, 32);
+        color: white;
+        height: 40px;
+        width: 250px;
+        margin-top: 35px;
+        border-radius: 5px;
+        }
+        #newsletter{
+        height: 250px;
+        margin-top: 25px;
+        border-radius: 5px;
+        background-color: rgb(37, 37, 37);
+        }
+        #newsletter h1{
+        text-align: center;
+        font-size: 22px;
+        color:rgb(255, 255, 255);
+        }
+        #newsletter input[type='email']{
+        height: 40px;
+        width: 300px;
+        margin-left:30px ;
+        align-items: center;
+        border-radius: 5px;
+        outline: 0px;
+        font-size: 16px;
+        text-align: center;
+        border-style: none;
+        background-color: rgb(255, 255, 255);
+        float: left;
+        
+        }
+        #newsletter input[type='button']{
+        margin-top: 30px;
+        margin-left: 70px;
+        border-radius: 5px;
+        height: 40px;
+        width: 200px;
+        outline: 0px;
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+
+        border-style: none;
+        float: left;
+        }
+        #aboutus{
+
+        height: 430px;
+        }
+        #aboutusimg{
+        height: 300px;
+        width: 450px;
+        margin: 50px;
+        float: left;
+        }
+        #imgabtus{
+        height: 350px;
+        width: 290px;
+        }
+        #aboutuscontent{
+        height: 350px;
+        width: 550px;
+        margin-top: 30px;
+        float: left;
+        }
+        #aboutuscontent p{
+        font-size: 17px;
+        }
+        #aboutuscontent h1{
+        color: rgb(228, 170, 103);
+        }
+        #galleryspace{
+            background-color:  rgb(254, 243, 230);
+            height: 50px;
+        }
+        
+        #contact{
+            color: #16348C;
+            height: 550px;
+            background-color:  rgb(254, 243, 230);
+        }
+        #Contactbox1,#Contactbox2,#Contactbox3{
+            height: 400px;
+            width: 230px;
+            margin-top: 40px;
+            margin-left: 40px;
+            background-color: rgb(192,215,221);
+            float: left;
+            box-shadow: 2px 2px 5px 2px rgb(52, 52, 67);
+        }
+        #Contactbox1 span pre  {
+            color: #763a21;
+            font-size: 26px;
+            font-weight: 900;
+            text-align: center;
+        }
+        #Contactbox1 ul li,#Contactbox2 ul li{
+            list-style: none;
+            line-height: 2.5;
+        }
+        #Contactbox1 ul li a{ 
+            margin-top: 50px;
+            text-decoration: none;
+            color: #201b67;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+        }
+        #Contactbox1 ul li a:hover{ 
+            color:  rgb(228, 170, 103);
+            font-size: 20px;
+        }
+        
+        #Contactbox1 ul li a{
+            font-size: 19px;
+        }
+        #Contactbox1 span {
+            font-size: 22px;
+            text-align: center;
+        }
+        #Contactbox2 span pre  {
+            color:#763a21;
+            font-size: 26px;
+            font-weight: 900;
+            margin-top: 5px;
+            text-align: center;
+        }
+        #Contactbox2 ul li{ 
+            margin-top: 3px;
+            text-decoration: none;
+            color: #201b67;
+            font-size: 20px;
+            font-weight: 600;
+        
+        }
+        #Contactbox2 p{ 
+            
+            color: #201b67;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: -20px;
+        }
+        #Contactbox3 h1 {
+            margin-top: 22px;
+            color: #763a21;
+            font-size: 26px;
+            font-weight: 900;
+            text-align: center;
+        }
+        #Contactbox3 p {
+            
+            color: #201b67;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+        }
+        #Contactbox4{
+            height: 400px;
+            width: 300px;
+            margin-top: 40px;
+            margin-left: 40px;
+            background-color: rgb(192,215,221);
+            float: left;
+            box-shadow: 2px 2px 5px 2px rgb(52, 52, 67);
+        }
+        #Contactbox4 iframe{
+            height: 400px;
+            width: 300px;
+           
+        }
+        
+        #collection{
+            height: 1500px;
+            background-color:  rgb(254, 243, 230);
+        }
+        #collection h1{
+            color: #16348C;
+            text-align: center;
+            font-weight:700 ;
+        }
+        #collection h1:hover{
+            color:  rgb(228, 170, 103);
+        }
+        #collectionimg1{
+            height: 380px;
+            width: 260px;
+            margin-top: 60px;
+            margin-left: 100px;
+            float: left;
+            background-color: black;
+            box-shadow: 2px 2px 4px 5px rgb(70, 70, 70);
+        }
+        #collectionimg1 p{
+            margin-top: 10px;
+            color: rgb(187, 226, 236);
+            font-weight: 600;
+        }
+        #collectionimg1 p:hover {
+            color:  rgb(228, 170, 103);
+        }
+        
+        #footer {
+            background-color:  rgb(254, 243, 230);
+            height: 30px;
+            width: 1000px;
+            color:darkslategrey;
+        }
+        
+        #account{
+            height: 450px;
+            width: 410px;
+            margin: auto;
+            margin-top: 20px;
+            background-color: rgb(192,215,221);
+        }
+        #on{
+            height: 60px;
+            width: 205px;
+            float: left;
+            color: white;
+            font-size: 22px;
+            font-weight: 600;
+            border-color: black;
+            background-color: black;
+        }
+        #off{
+            height: 60px;
+            width: 205px;
+            float: left;
+            font-size: 22px;
+            font-weight: 600;
+            color: white;
+            background-color:  rgb(235, 191, 141);
+            border-color: rgb(235, 191, 141);
+        }
+        #formbox1,#formbox2,#formbox3,#formbox4{
+            height: 38px;
+            width: 300px;
+            margin: 5px;
+            margin-top: 23px;
+            margin-left: 40px;
+            outline: 0px;
+            font-size: 16px;
+            text-align: center;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-color: black;
+        }
+        #account input[type='submit'],#account input[type='reset']{
+            height: 40px;
+            width: 180px;
+            float: left;
+            color: white;
+            margin-top: 30px;
+            margin-left: 18px;
+            font-size: 22px;
+            font-weight: 600;
+            border-color: black;
+            background-color: black;
+        }
+        #account center a{
+            margin-top: 10px;
+            color: darkslategray;
+            font-size: 16px;
+        }
+        #rememberme{
+            height: 10px;
+            width: 400px;
+            margin-top: 20px;
+            margin-left: 40px;
+            text-align: center;
+            text-decoration: none;
+        }
+        #products{
+            height: 4600px;
+            width: 95%;
+            margin-left: 32px;
+            float: left;
+            background-color:  rgb(254, 243, 230);
+        }
+        #Product1{
+            float: left;
+            margin: 10px;
+            margin-top: 50px;
+            height:370px;
+            background-color: black;
+            width:260px;
+            margin-left: 24px;
+            box-shadow: 2px 2px 4px 5px rgb(70, 70, 70);
+        }
+        #Product1  center{
+            color: white;
+            margin-top: 8px;
+            font-size: 22px;
+            font-weight: 600;
+            text-decoration: none;
+            border-color: black;
+            
+        }
+        #items{
+            margin-top: 50px;
+        }
+        #items h1{
+            color:  rgb(228, 170, 103);
+        }
+        #sectionofperfumes{
+            height: 400px;
+            margin-top: 20px;
+            float: left;
+            margin: 20px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        #allperfumes {
+            float: left;
+            margin: 42px;
+            height: 310px;
+            background-color: rgb(25, 88, 104);
+            box-shadow: 2px 2px 4px 2px rgb(120, 118, 118);
+            font-size: 18px;
+        }
+        #sectionofperfumes2{
+            height: 400px;
+            float: left;
+            margin: 10px;
+            background-color:  rgb(254, 243, 230);
+        }
+        #allperfumes2{
+            float: left;
+            margin: 42px;
+            height: 310px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            box-shadow: 2px 2px 4px 2px rgb(120, 118, 118);
+            font-size: 18px;
+        }
+        
+        
+}
