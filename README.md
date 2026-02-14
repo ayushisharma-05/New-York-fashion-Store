@@ -1,5 +1,4 @@
 # New-York-fashion-Store
-# New York Fashion Store
 
 New York Fashion Store is a multi-page static website built using HTML and CSS.  
 The project focuses on layout design, structured navigation, dropdown menus, and section-based styling.
@@ -32,8 +31,3 @@ The project focuses on layout design, structured navigation, dropdown menus, and
 - account.html
 - style.css
 - Public (assets folder)
-
-## Author
-
-Ayushi Sharma
-
